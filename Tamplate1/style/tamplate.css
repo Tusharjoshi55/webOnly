@@ -189,6 +189,7 @@ hr{
 }
 
 /*Product Detail*/
+
 .product-detail{
   height: auto;
   border-radius: 50px;
@@ -212,6 +213,8 @@ hr{
   justify-content: center;
   align-items: center;
 }
+
+
 .row a{
   text-decoration: none;
   margin: 2%;
@@ -224,6 +227,10 @@ hr{
   width: 180px;
   height: 260px;
   border-radius: 20px;
+}
+.row a :hover{
+  margin-top: 10px;
+  transition: all 0.5s ease;
 }
 .card-img{
   display: block;
